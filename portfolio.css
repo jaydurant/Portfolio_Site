@@ -34,6 +34,15 @@ ul{
 	padding-left: 40%
 }
 
+i {
+	color: black;
+	padding-right: 3px;
+}
+
+.linkedinIcon{
+	vertical-align: 0%;
+}
+
 .homeSectionBackground{
 	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat fixed;
 	background-position: center;
@@ -69,6 +78,10 @@ ul{
 }
 
 .homeButtons{
+	text-align: center;
+}
+
+.homeButtons div{
 	display:inline-block;
 }
 
@@ -103,16 +116,19 @@ footer li{
 	.thumbnail{
 		display:inline-block;
 	}
-	
-	.centerBlock .btn{
-		display:inline-block;
-	}
 
 	.homeButtons{
-		display: block;
+		text-align: left;
 	}
 
-	 .centerBlock .homeButtons~.homeButtons{
+	.homeButtons div{
+		display: block;
+		padding: 0 0 0 35%;
+
+	}
+
+	 .homeButtons div~div{
 		margin-top: 4%;
 	}
+
 }
