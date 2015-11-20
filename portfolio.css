@@ -1,12 +1,15 @@
+/* * - This section applies to all elements*/
 *{
 	color:#FDFDFD;
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* body selector creates spaces between the first container div and the navbar */
 body{
 	padding-top: 50px;
 }
 
+/* h1 and h2 selector establish different font style for the various titles of the text content */
 h1,h2{
 	font-family: 'Dancing Script', cursive;
 	text-shadow:4px 2px 3px black;
@@ -20,6 +23,8 @@ h2{
 	font-size: 4em;
 }
 
+/* h4 and ul set the style for aboutSection contianer */
+
 h4{
 	text-decoration: underline;
 }
@@ -32,22 +37,23 @@ ul{
 	padding-left: 40%
 }
 
+/* i sets the intial value of the social media icons*/
 i {
-	color: #000000;
+	color: #000;
 	padding-right: 3px;
 }
 
+/* nav selectors set the hover states and styles for nav bar buttons and icons */
+
 .navbar-inverse .navbar-nav>li>a, nav i, .navbar-inverse .navbar-brand{
-	color:white;
+	color:#FFF;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover{
 	background-color: #4A4A4A;
 }
 
-.linkedinIcon{
-	vertical-align: 0%;
-}
+/* sectionBackground classes set the background images for each section */
 
 .homeSectionBackground{
 	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat fixed;
@@ -73,27 +79,15 @@ i {
 	background-size: cover;
 }
 
+/* Section classes sets the styles and sets the block formatting context*/
 .contentSection{
 	overflow:auto;
 
 }
 
-
 .homeSection{
 	padding-top: 12%;
 	height: 100%;
-}
-
-.homeButtons{
-	text-align: center;
-}
-
-.homeButtons div{
-	display:inline-block;
-}
-
-.homeButtons div~div{
-	margin-left: 1%;
 }
 
 .aboutSection{
@@ -108,6 +102,23 @@ i {
 	color: white;
 }
 
+/* following clases sets the style for the social media buttons and handles the styles when the user is using desktop size widths*/
+
+.linkedinIcon{
+	vertical-align: 0%;
+}
+
+.homeButtons{
+	text-align: center;
+}
+
+.homeButtons div{
+	display:inline-block;
+}
+
+.homeButtons div~div{
+	margin-left: 1%;
+}
 
 .contactButtons div {
 	margin-top: 4%;
@@ -120,6 +131,8 @@ i {
 	color: #000000;
 	transition: transform .5s;
 }
+
+/* reference to Bootstrap classes to override default styles */
 
 .btn-default:hover, .btn-default:hover:focus, .btn-default:hover i, .btn-default:hover:focus i{
 	background-color: rgba(0, 0, 0, 1);
@@ -147,8 +160,6 @@ i {
 
 /* Footer Section */
 
-
-
 footer li{
 	display: inline-block;
 	padding-top: 1%;
@@ -158,6 +169,7 @@ footer li{
 	margin: 0 10px 0 8px; 
 }
 
+/* media query to establish style of portfolio section, decrease font-size of h1 nd h2 elements, and change display value of socila media buttons */
 @media	(max-width:767px){
 
 	h1{
