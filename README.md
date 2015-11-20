@@ -1,10 +1,10 @@
 #My Portfolio Repo
 
 ## Technology
--Bootstrap: CSS Framework used for Scaffolding, Styling, and Responsive Layout
--jQuery: Utilized for scrolling Feature
--CSS: Utilized for custom styling and custom Responsive Layout Options
--Semantic HTML5: Utilized to designate items such as the navbar and footer
+- Bootstrap: CSS Framework used for Scaffolding, Styling, and Responsive Layout
+- jQuery: Utilized for scrolling Feature
+- CSS: Utilized for custom styling and custom Responsive Layout Options
+- Semantic HTML5: Utilized to designate items such as the navbar and footer
 
 ## User Stories
 1. Allow users to nativagate on any device (i.e. utlize responsive design)
