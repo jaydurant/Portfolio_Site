@@ -1,5 +1,5 @@
 *{
-	color:white;
+	color:#FDFDFD;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,7 +9,7 @@ body{
 
 h1,h2{
 	font-family: 'Dancing Script', cursive;
-	text-shadow:3px 2px 2px black;
+	text-shadow:4px 2px 3px black;
 }
 
 h1{
@@ -59,13 +59,17 @@ ul{
 }
 
 .contentSection{
-	overflow:hidden;
+	overflow:auto;
 
 }
 
 .homeSection{
-	padding-top: 15%;
+	padding-top: 12%;
 	height: 100%;
+}
+
+.homeButtons{
+	display:inline-block;
 }
 
 .aboutSection{
@@ -93,4 +97,22 @@ footer li{
 
 .middot{
 	margin: 0 10px 0 8px; 
+}
+
+@media	(max-width:767px){
+	.thumbnail{
+		display:inline-block;
+	}
+	
+	.centerBlock .btn{
+		display:inline-block;
+	}
+
+	.homeButtons{
+		display: block;
+	}
+
+	 .centerBlock .homeButtons~.homeButtons{
+		margin-top: 4%;
+	}
 }
