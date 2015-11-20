@@ -12,7 +12,7 @@
 3. Allow users to be able to access social media profiles through button interactions
 4. Allow users the ability to view different projects through a responsive panel
 
-#Future Enhancements
+##Future Enhancements
 1. Use CSS3 to create flipping cards
 2. Addition of all current projects
 3. Rebuilding Portfolio site with a JS Framework, SASS, and templating engine (e.g. Handlebars)
