@@ -20,8 +20,6 @@ h2{
 	font-size: 4em;
 }
 
-
-
 h4{
 	text-decoration: underline;
 }
@@ -35,8 +33,16 @@ ul{
 }
 
 i {
-	color: black;
+	color: #000000;
 	padding-right: 3px;
+}
+
+.navbar-inverse .navbar-nav>li>a, nav i, .navbar-inverse .navbar-brand{
+	color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover{
+	background-color: #4A4A4A;
 }
 
 .linkedinIcon{
@@ -72,6 +78,7 @@ i {
 
 }
 
+
 .homeSection{
 	padding-top: 12%;
 	height: 100%;
@@ -85,18 +92,44 @@ i {
 	display:inline-block;
 }
 
+.homeButtons div~div{
+	margin-left: 1%;
+}
+
 .aboutSection{
 	padding: 6% 0 8% 0;
 }
 
 .contactSection{
-	padding: 20% 0;
+	padding: 10% 0 25% 0;
+}
+
+.contactSection p>a {
+	color: white;
 }
 
 
 .contactButtons div {
 	margin-top: 4%;
 	padding: 0 0 0 35%;
+}
+
+.btn-default{
+	background-color: rgba(252, 248, 227, 0.58);
+	border: solid 2px #000000;
+	color: #000000;
+	transition: transform .5s;
+}
+
+.btn-default:hover, .btn-default:hover i{
+	background-color: rgba(0, 0, 0, 1);
+	border: solid 2px #FFFFFF;
+	color: #FFFFFF;
+	transform:scale(1.1,1.1);
+}
+
+.btn-default:hover i{
+	border:none;
 }
 
 /* Footer Section */
@@ -113,6 +146,15 @@ footer li{
 }
 
 @media	(max-width:767px){
+
+	h1{
+		font-size: 4em;
+	}
+
+	h2{
+		font-size: 3em;
+	}
+
 	.thumbnail{
 		display:inline-block;
 	}
@@ -130,5 +172,13 @@ footer li{
 	 .homeButtons div~div{
 		margin-top: 4%;
 	}
+
+	.contactSection h3{
+		font-size: 2em;
+	}
+
+	.aboutSection p{
+		 padding-left: 4%;
+}
 
 }
