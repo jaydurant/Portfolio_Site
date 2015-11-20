@@ -13,8 +13,3 @@ $(function() {
 	    }
 	  });
 });
-
-$('body').on('click', '.btn', function(e){
-    e.stopImmediatePropagation();
-    $(this).removeClass('active');
-})

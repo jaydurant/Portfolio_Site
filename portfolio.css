@@ -121,16 +121,29 @@ i {
 	transition: transform .5s;
 }
 
-.btn-default:hover, .btn-default:hover i{
+.btn-default:hover, .btn-default:hover:focus, .btn-default:hover i, .btn-default:hover:focus i{
 	background-color: rgba(0, 0, 0, 1);
 	border: solid 2px #FFFFFF;
 	color: #FFFFFF;
 	transform:scale(1.1,1.1);
 }
 
-.btn-default:hover i{
+.btn-default:hover i, .btn-default:hover:focus i{
 	border:none;
 }
+
+.btn-default:focus,.btn-default.focus,.btn-default:active,
+.btn-default.active,.btn-default:active:hover,
+.btn-default.active:hover, 
+.btn-default.active:hover,.btn-default:active:focus,
+.btn-default.active:focus,.btn-default:active,
+.btn-default.active {
+	background-color: rgba(252, 248, 227, 0.58);
+	border: solid 2px #000000;
+	color: #000000;
+	transition: transform .5s;
+}
+
 
 /* Footer Section */
 
