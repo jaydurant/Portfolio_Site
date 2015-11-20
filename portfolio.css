@@ -1,7 +1,26 @@
-body{
-	padding-top: 70px;
-
+*{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
 }
+
+body{
+	padding-top: 50px;
+}
+
+h1,h2{
+	font-family: 'Dancing Script', cursive;
+	text-shadow:3px 2px 2px black;
+}
+
+h1{
+	font-size: 5em;
+}
+
+h2{
+	font-size: 4em;
+}
+
+
 
 h4{
 	text-decoration: underline;
@@ -15,9 +34,63 @@ ul{
 	padding-left: 40%
 }
 
-.contentSection {
-	height: 650px;
-	border-top: solid 1px red;
-	padding: 0 0 0 0;
+.homeSectionBackground{
+	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+}
 
+.aboutSectionBackground{
+	background: url(http://i.imgur.com/xRshk2l.png) no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.portfolioSectionBackground{
+	background: url(http://i.imgur.com/zNXuBY4.png) no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.contactSectionBackground{
+	background: url(http://i.imgur.com/lhknrdQ.png) no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.contentSection{
+	overflow:hidden;
+
+}
+
+.homeSection{
+	padding-top: 15%;
+	height: 100%;
+}
+
+.aboutSection{
+	padding: 6% 0 8% 0;
+}
+
+.contactSection{
+	padding: 20% 0;
+}
+
+
+.contactButtons div {
+	margin-top: 4%;
+	padding: 0 0 0 35%;
+}
+
+/* Footer Section */
+
+
+
+footer li{
+	display: inline-block;
+	padding-top: 1%;
+}
+
+.middot{
+	margin: 0 10px 0 8px; 
 }
