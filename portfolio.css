@@ -92,7 +92,7 @@ i {
 
 /* Section classes sets the styles and sets the block formatting context*/
 .contentSection{
-	overflow:hidden;
+	overflow:auto;
 
 }
 
@@ -217,7 +217,7 @@ footer li{
 		 padding-left: 4%;
 	}
 
-	.homeSectionBackground, .portfolioSectionBackground{
+	section{
 		background-attachment: scroll;
 	}
 
