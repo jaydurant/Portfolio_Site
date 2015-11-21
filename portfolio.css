@@ -56,8 +56,7 @@ i {
 /* sectionBackground classes set the background images for each section */
 
 .homeSectionBackground{
-	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat fixed;
-	background-position: center;
+	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
