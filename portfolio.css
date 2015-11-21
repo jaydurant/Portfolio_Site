@@ -217,7 +217,7 @@ footer li{
 		 padding-left: 4%;
 	}
 
-	.homeSectionBackground, .aboutSectionBackground, .portfolioSectionBackground, .contactSectionBackground{ 
+  	section div:first-child{ 
 		background-attachment: scroll;
 	}
 
