@@ -217,8 +217,8 @@ footer li{
 		 padding-left: 4%;
 	}
 
-	.contentSection{
-		overflow: scroll;
+	.portfolioSectionBackground{
+		background-attachment: scroll;
 	}
 
 }
