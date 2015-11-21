@@ -217,7 +217,7 @@ footer li{
 		 padding-left: 4%;
 	}
 
-	section{
+	section + div{ 
 		background-attachment: scroll;
 	}
 
