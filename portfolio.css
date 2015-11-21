@@ -59,29 +59,41 @@ i {
 	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .aboutSectionBackground{
 	background: url(http://i.imgur.com/xRshk2l.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .portfolioSectionBackground{
 	background: url(http://i.imgur.com/zNXuBY4.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .contactSectionBackground{
 	background: url(http://i.imgur.com/lhknrdQ.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Section classes sets the styles and sets the block formatting context*/
 .contentSection{
-	overflow:auto;
+	overflow:hidden;
 
 }
 
@@ -204,6 +216,10 @@ footer li{
 
 	.aboutSection p{
 		 padding-left: 4%;
-}
+	}
+
+	.contentSection{
+		overflow: scroll;
+	}
 
 }
