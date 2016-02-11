@@ -56,7 +56,7 @@ i {
 /* sectionBackground classes set the background images for each section */
 
 .homeSectionBackground{
-	background: url(http://i.imgur.com/GfIbF8V.png) no-repeat center center fixed;
+	background: url(./assets/home-bk.png) no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -64,7 +64,7 @@ i {
 }
 
 .aboutSectionBackground{
-	background: url(http://i.imgur.com/xRshk2l.png) no-repeat fixed;
+	background: url(./assets/about-bk.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -73,7 +73,7 @@ i {
 }
 
 .portfolioSectionBackground{
-	background: url(http://i.imgur.com/zNXuBY4.png) no-repeat fixed;
+	background: url(./assets/portfolio-bk.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -82,7 +82,7 @@ i {
 }
 
 .contactSectionBackground{
-	background: url(http://i.imgur.com/lhknrdQ.png) no-repeat fixed;
+	background: url(./assets/contact-bk.png) no-repeat fixed;
 	background-position: center;
 	background-size: cover;
 	-webkit-background-size: cover;
