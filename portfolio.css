@@ -181,6 +181,10 @@ footer li{
 }
 
 /* media query to establish style of portfolio section, decrease font-size of h1 nd h2 elements, and change display value of socila media buttons */
+.caption p{
+	color:black;
+}
+
 @media	(max-width:767px){
 
 	h1{
